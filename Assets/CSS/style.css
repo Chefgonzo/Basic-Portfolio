@@ -4,7 +4,6 @@
     background-color: #ffffff;
     border-bottom: 5px solid #cccccc;
     height: 84px;
-    width: 960px;
     margin: auto;
 }
 
@@ -16,17 +15,21 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 36px;
     padding: 20px;
+    margin-left: 20%;
 }
 
 #tabs {
     text-decoration: none;
-    float:right;
     color: #777777;
     padding: 20px;
-    display: block;
-    margin-top: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    float: right;     
+}
+.topnav {
+    display: block;
+    margin-right: 200px;    /*Adjust the right margin even furthur out and add a bit of top margin*/
+    text-align: right;
 }
 
 #tabs:hover {
@@ -34,7 +37,7 @@ header {
     color: white;
 }
 
-.clearfix::after {
+head::after {
     content: "";
     clear: both;
     overflow: auto;
