@@ -219,6 +219,12 @@ input[type=text], select, textarea {
     overflow: auto;
 }
 
+#train {
+    border-radius: 1px;
+    position: relative;
+    
+}
+
 
 
 
