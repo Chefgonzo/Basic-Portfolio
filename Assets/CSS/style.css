@@ -211,10 +211,10 @@ input[type=text], select, textarea {
 
 .projects {
     column-count: 3;
-    column-fill: auto;
+    column-fill: balance;
     height: auto;
-    column-gap: 5px;
-    column-width: 300px;
+    column-gap: 40px;
+    column-width: 280px;
     float: left;
     overflow: auto;
 }
@@ -222,10 +222,27 @@ input[type=text], select, textarea {
 #train {
     border-radius: 1px;
     position: relative;
-    
+    overflow: auto;
+    margin-left: 18px;
+    width: 274px;
+    margin-bottom: 55px;
 }
 
+#hangman {
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 98px;
+    margin: -135px 0px 0px 18px;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
 
+#hangman:hover {
+    background-color: #777777;
+    color: white;
+}
 
 
 
