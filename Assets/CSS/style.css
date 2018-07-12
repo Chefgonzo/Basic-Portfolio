@@ -124,7 +124,7 @@ p4 {
 
 
 
-/*Start of work for the Contact Page*/
+/*Start of css for the Contact Page*/
 
 .container {
     width: 960px;
@@ -175,8 +175,20 @@ input[type=text], select, textarea {
     padding: 11px 26px;
     cursor: pointer;
     margin-left: 18px;
-    
 }
+
+#submit:hover {
+    background-color: #777777;
+    color: white;
+}
+
+
+
+
+
+/*Start of css for the portfolio page*/
+
+
 
 
 
