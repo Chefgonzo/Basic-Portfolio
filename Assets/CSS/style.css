@@ -37,6 +37,7 @@ header {
     display: block;
     margin-right: 266px;    
     text-align: right;
+    float: right;
 }
 
 #tabs:hover {
