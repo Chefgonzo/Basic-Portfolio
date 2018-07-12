@@ -189,7 +189,25 @@ input[type=text], select, textarea {
 /*Start of css for the portfolio page*/
 
 
+.portfolio {
+    width: 960px;
+    height: 717px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 
+#port {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    float: left;
+    padding: 30px;
+    margin: 10px 0px 25px 18px;
+    border-bottom: 2px solid #cccccc;
+    width:862px;
+}
 
 
 
