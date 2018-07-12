@@ -9,6 +9,7 @@
     top: 0;
     right: 0;
     left: 0;
+    z-index: 5;
 }
 
 header {
@@ -45,8 +46,8 @@ header {
 
 head::after {
     content: "";
+    display: table;
     clear: both;
-    overflow: auto;
 }
 
 
@@ -114,8 +115,8 @@ p4 {
 
 .body::after {
     content: "";
+    display: table;
     clear: both;
-    overflow: auto;
 }
 
 
@@ -191,7 +192,7 @@ input[type=text], select, textarea {
 
 .portfolio {
     width: 960px;
-    height: 717px;
+    height: 900px;
     margin: auto;
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -209,20 +210,25 @@ input[type=text], select, textarea {
     width:862px;
 }
 
+#port::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .projects {
     column-count: 3;
-    column-fill: balance;
-    height: auto;
+    height: 900px;
     column-gap: 40px;
     column-width: 280px;
     float: left;
-    overflow: auto;
 }
+
+/*Project 1*/
 
 #train {
     border-radius: 1px;
     position: relative;
-    overflow: auto;
     margin-left: 18px;
     width: 274px;
     margin-bottom: 55px;
@@ -244,12 +250,106 @@ input[type=text], select, textarea {
     color: white;
 }
 
+/*Project 2*/
 
+#soccer {
+    border-radius: 1px;
+    position: relative;
+    margin-left: 18px;
+    width: 274px;
+    margin-bottom: 55px;
+}
 
+#rpg {
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 91px;
+    margin: 391px 0px 0px -314px;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
 
+#rpg:hover {
+    background-color: #777777;
+    color: white;
+}
 
+/*Project 3*/
 
+#flower {
+    border-radius: 1px;
+    position: relative;
+    width: 274px;
+    margin-bottom: 55px;
+}
 
+#trivia {
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 88px;
+    margin: 128px 0px 0px -273px;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#trivia:hover {
+    background-color: #777777;
+    color: white;
+}
+
+/*Project 4*/
+
+#disco {
+    border-radius: 1px;
+    position: relative;
+    width: 274px;
+    margin-bottom: 55px;
+}
+
+#rutgers {
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 57px;
+    margin: 126px 0px 0px -274px;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#rutgers:hover {
+    background-color: #777777;
+    color: white;
+}
+
+/*Project 5*/
+
+#bridge {
+    border-radius: 1px;
+    position: relative;
+    width: 274px;
+    margin-bottom: 55px;
+}
+
+#rock {
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 53px;
+    margin: 128px 0px 0px -273px;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#rock:hover {
+    background-color: #777777;
+    color: white;
+}
 
 
 
@@ -272,5 +372,6 @@ input[type=text], select, textarea {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 5;
 }
 
