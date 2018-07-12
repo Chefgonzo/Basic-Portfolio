@@ -209,6 +209,16 @@ input[type=text], select, textarea {
     width:862px;
 }
 
+.projects {
+    column-count: 3;
+    column-fill: auto;
+    height: auto;
+    column-gap: 5px;
+    column-width: 300px;
+    float: left;
+    overflow: auto;
+}
+
 
 
 
