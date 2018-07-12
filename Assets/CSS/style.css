@@ -23,7 +23,7 @@ header {
     margin-left: 289px;
 }
 
-#tabs {
+.tabs {
     text-decoration: none;
     color: #777777;
     padding: 20px;
@@ -40,7 +40,7 @@ header {
     float: right;
 }
 
-#tabs:hover {
+.tabs:hover {
     background-color: #4aaaa5;
     color: white;
 }
