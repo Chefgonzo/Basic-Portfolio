@@ -177,6 +177,7 @@ input[type=text], select, textarea {
     padding: 11px 26px;
     cursor: pointer;
     margin-left: 18px;
+    text-decoration: none;
 }
 
 #submit:hover {
