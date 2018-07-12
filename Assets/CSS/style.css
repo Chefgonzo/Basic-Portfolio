@@ -4,7 +4,11 @@
     background-color: #ffffff;
     border-bottom: 5px solid #cccccc;
     height: 84px;
-    margin: auto;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 header {
@@ -15,7 +19,7 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 36px;
     padding: 20px;
-    margin-left: 20%;
+    margin-left: 289px;
 }
 
 #tabs {
@@ -24,11 +28,13 @@ header {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    float: right;     
+    float: right;
+    margin-top: 15px;     
 }
+
 .topnav {
     display: block;
-    margin-right: 200px;    /*Adjust the right margin even furthur out and add a bit of top margin*/
+    margin-right: 266px;    
     text-align: right;
 }
 
@@ -44,30 +50,154 @@ head::after {
 }
 
 
+
+
+
+
+
+
 /*Body Background*/
 body {
     background-image: url(../Images/country-quilt.png);
 }
 
 
+
+
+
+
+
+
+
 /*Start of CSS for Body of index.html*/
 
 .body {
     width: 960px;
+    height: 658px;
     margin: auto;
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    margin-top: 30px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 #aboutme {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     float: left;
+    padding: 30px;
+    margin: 10px 0px 25px 18px;
+    border-bottom: 2px solid #cccccc;
+    width:862px;
 }
 
 #me {
     border-radius: 8px;
     float: left;
-    width: 10%;
+    width: 24%;
+    margin: 0px 18px 2px 18px;
 }
+
+#content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    margin-right: 20px;
+    margin-left: 18px;
+    line-height: 39px;
+}
+
+p4 {
+    margin-left: 230px;
+    font-size: 24px;
+}
+
+.body::after {
+    content: "";
+    clear: both;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+/*Start of work for the Contact Page*/
+
+.container {
+    width: 960px;
+    height: 658px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    /* float: left; */
+    padding: 30px;
+    margin: 10px 0px 25px 18px;
+    border-bottom: 2px solid #cccccc;
+    width:862px;
+}
+
+
+input[type=text], select, textarea {
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 12px;
+    color: #777777;
+    font-size: 14px;  
+    border: 1px solid #dddddd; 
+    border-radius: 4px;  
+    margin: 10px 0px 16px 0px;
+    resize: vertical 
+}
+
+#same {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    font-size: 18px;
+    margin-left: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sticky Footer*/
+.footer {
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 40px 0px 5px 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
